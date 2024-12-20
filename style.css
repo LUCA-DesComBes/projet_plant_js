@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: center/cover url("./img/dayImg.jpg");
+}
+
+.day {
+	background: center/cover url("./img/dayImg.jpg");
+}
+
+.night {
+	background: center/cover url("./img/nightImg.jpg");
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.plant {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: maroon;
+	border: green 6px solid;
+	padding: 24px;
+	font-size: 32px;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.aqua {
+	background-color: #0593c2;
+}

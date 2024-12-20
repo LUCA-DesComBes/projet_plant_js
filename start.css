@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sen", serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: center/cover url("./img/dayImg.jpg");
+    flex-direction: column;
+}
+
+h1 {
+    color: #7eca0b;
+    font-size: 64px;
+    margin-bottom: 56px;
+}
+
+.play, .quit {
+    cursor: pointer;
+    background-color: #6eb10a;
+    padding: 16px 9rem;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 24px;
+    font-size: 32px;
+    border: #528505 1px solid;
+}
+a {
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
